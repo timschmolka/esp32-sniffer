@@ -1,0 +1,10 @@
+menu "Sniffer Configuration"
+
+config WIFI_CHANNEL
+    int "Wi-Fi Channel"
+    default 1
+    range 1 13
+    help
+        Set the Wi-Fi channel for packet sniffing (1-13 for most regions).
+
+endmenu
