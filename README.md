@@ -67,6 +67,7 @@ puppy-esp-sniffer/
 │   ├── CMakeLists.txt  # Component build configuration
 ├── sdkconfig           # SDK configuration (auto-generated)
 └── README.md           # This file
+└── LICENSE             # License
 ```
 
 ## License
