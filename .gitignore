@@ -1,0 +1,57 @@
+# Compiled object files and libraries
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.so
+*.dylib
+*.dll
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# ESP-IDF specific files
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+sdkconfig.d/
+flash_project_args
+partition_table/
+*.elf
+*.bin
+*.map
+
+# CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Generated files by IDF.py
+project_description.json
+build.log
+idf.env
+*.pyc
+__pycache__/
+
+# Exclude user-generated content
+*.user
+*.local
+*.backup
